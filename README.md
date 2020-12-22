@@ -1,5 +1,5 @@
 # Git Hash Hunter 🏹  
-![Tests](https://github.com/jsws/git-hash-hunter/workflows/Tests/badge.svg)
+![Tests](https://github.com/jsws/git-hash-hunter/workflows/Tests/badge.svg) [![Go Report Card](https://goreportcard.com/badge/github.com/jsws/git-hash-hunter)](https://goreportcard.com/report/github.com/jsws/git-hash-hunter)
 
 A tool that allows you to set your commit hashes to whatever you like, inspired by [lucky-commit](https://github.com/not-an-aardvark/lucky-commit).
 
