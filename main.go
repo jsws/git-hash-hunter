@@ -140,9 +140,9 @@ func getPermutation(num int) []byte {
 	return permutation
 }
 
-func worker(hashToFind string, old_message string, old_head string, padding <-chan string, results chan<- string) {
+func worker(hashToFind string, oldMessage string, oldHead string, padding <-chan string, results chan<- string) {
 	for pad := range padding {
-		result := findHash(hashToFind, old_message, old_head, pad)
+		result := findHash(hashToFind, oldMessage, oldHead, pad)
 
 		if result != "" {
 			results <- result
